@@ -26,8 +26,6 @@ Small example of Spring Boot at work.
 
 Running the application automatically starts a Tomcat server at localhost:8080. By trying to connect to the address, the
 server sends an HTTP GET request that is handled in DemoApplication and returns the index.html file. The Javascript file 
-sends HTTP POST and GET requests that save an InfoPoint or retrieve the saved infopoints.
-
-Call ```java -jar build/libs/demo-0.0.1-SNAPSHOT.jar``` to run. 
+sends HTTP POST and GET requests that save an InfoPoint or retrieve the saved infopoints. 
 
     
